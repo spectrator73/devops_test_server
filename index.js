@@ -8,7 +8,7 @@ app.post("/log", (req, res) => {
   const { message } = req.body;
   if (message) {
     console.log(message);
-    res.status(200).send("Message logged", message);
+    res.status(200).send("Message logged server 1", message);
   } else {
     res.status(400).send("No message provided");
   }
