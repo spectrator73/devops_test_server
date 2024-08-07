@@ -15,7 +15,7 @@ app.post("/log", (req, res) => {
 });
 
 app.get("/message", (req, res) => {
-  res.send("Hello, this is your message from server: 1");
+  res.send("Hello, this is your message from the server: 1");
 });
 
 app.listen(port, () => {
